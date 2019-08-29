@@ -4,18 +4,20 @@
 
 # Site
 title: Hexo
-subtitle:
-description:
-keywords:
-author: John Doe
-language: en
+subtitle: 生命在于搞事
+description: 程序员,开发,伪geek,游戏,电影,音乐
+keywords: HTML, JavaScript, Hexo
+tags: Java, Golang, React, Vue
+author: Mioz W
+language: zh-cn
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://mioz.vip
 root: /
-permalink: :year/:month/:day/:title/
+permalink: :year/:abbrlink.html
+# permalink: :year/:i_month/:i_day/:title/
 permalink_defaults:
 
 # Directory
@@ -78,4 +80,18 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: https://github.com/mioz2077/hexo_netlify.git
+##  branch: dev
+
+# hexo-admin authentification
+admin:
+  username: userw80
+  password_hash: $2a$10$mrL7dT59Gm31z7FN.t6Yn.RbdAFq03BiiBK77xUPnQkSM6uqqq8ga
+  secret: my super secret phrase
+  qiniuCfg:
+      imageslim: true  # 启动图片瘦身，仅华东区bucket可以使用
+      AccessKey: 'BtoQ_TgFidlNRCJuV_oA-olTc8gRPJbgixlQOULu'
+      SecretKey: 'ubmKSWsNAmtpgv9n_9UtMSXqDRvk7oWd-KgG0bnG'
+      BucketName: 'shift'
+      bucketHost: 'pwworrs69.bkt.clouddn.com'
