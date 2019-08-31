@@ -271,9 +271,9 @@ sidebar:
 # A button to open designated chat widget in sidebar.
 # Firstly, you need enable the chat service you want to activate its sidebar button.
 chat:
-  enable: false
+  enable: true
   #service: chatra
-  #service: tidio
+  service: tidio
   icon: comment # Icon name in Font Awesome, set false to disable icon.
   text: Chat # Button text, change it as you wish.
 
@@ -335,7 +335,7 @@ reward_settings:
   #comment: Donate comment here.
 
 reward:
-  #wechatpay: /images/wechatpay.png
+  #wechatpay: /images/wechat.png
   #alipay: /images/alipay.png
   #bitcoin: /images/bitcoin.png
 
@@ -684,7 +684,7 @@ gitalk:
   # Gitalk's display language depends on user's browser or system environment
   # If you want everyone visiting your site to see a uniform language, you can set a force language value
   # Available values: en | es-ES | fr | ru | zh-CN | zh-TW
-  language:
+  language: zh-CN
 
 
 # ---------------------------------------------------------------
@@ -765,7 +765,7 @@ leancloud_visitors:
   # If you don't care about security in leancloud counter and just want to use it directly
   # (without hexo-leancloud-counter-security plugin), set `security` to `false`.
   security: true
-  betterPerformance: false
+  betterPerformance: true
 
 # Another tool to show number of visitors to each article.
 # Visit https://console.firebase.google.com/u/0/ to get apiKey and projectId.

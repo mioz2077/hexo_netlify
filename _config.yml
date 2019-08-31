@@ -80,7 +80,9 @@ theme: next
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: git
+  # other deployer
+  type: leancloud_counter_security_sync
+  # type: git
   repo: https://github.com/mioz2077/hexo_netlify.git
 ##  branch: dev
 
@@ -96,8 +98,10 @@ admin:
       BucketName: 'shift'
       bucketHost: 'pwworrs69.bkt.clouddn.com'
 
-chat:
-  enable: true
-  service: tidio
-  icon: comment
-  text: Chat
+# sss
+leancloud_counter_security:
+  enable_sync: true
+  app_id: DAJLkcaBnNaBu3twHtvfo1Ju-gzGzoHsz
+  app_key: 0jmmtW4u2oujE6IR4TtqonHH
+  username: mioz
+  password: Admin12#$
