@@ -4,7 +4,7 @@
 
 # Site
 title: 搞事
-subtitle: 生命在于搞事
+subtitle: 生命在于折腾
 description: 程序,开发,伪geek,游戏,电影,音乐
 keywords: HTML, JavaScript, Hexo
 tags: Java, Golang, React, Vue
@@ -95,3 +95,9 @@ admin:
       SecretKey: 'ubmKSWsNAmtpgv9n_9UtMSXqDRvk7oWd-KgG0bnG'
       BucketName: 'shift'
       bucketHost: 'pwworrs69.bkt.clouddn.com'
+
+chat:
+  enable: true
+  service: tidio
+  icon: comment
+  text: Chat
