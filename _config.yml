@@ -101,9 +101,9 @@ admin:
 # sss
 leancloud_counter_security:
   enable_sync: true
-  #app_id: DAJLkcaBnNaBu3twHtvfo1Ju-gzGzoHsz
-  app_id: CPMO6LObh3f6ylUAInkaT5Wa-gzGzoHsz
-  #app_key: 0jmmtW4u2oujE6IR4TtqonHH
-  app_key: yWYyuabvQecfHOkbMHhatvuq
+  app_id: DAJLkcaBnNaBu3twHtvfo1Ju-gzGzoHsz
+  #app_id: CPMO6LObh3f6ylUAInkaT5Wa-gzGzoHsz
+  app_key: 0jmmtW4u2oujE6IR4TtqonHH
+  #app_key: yWYyuabvQecfHOkbMHhatvuq
   username: mioz
   password: Admin12#$
