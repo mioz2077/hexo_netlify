@@ -657,7 +657,7 @@ valine:
   appkey: 0jmmtW4u2oujE6IR4TtqonHH # Your leancloud application appkey
   notify: false # Mail notifier. See: https://github.com/xCss/Valine/wiki
   verify: true # Verification code
-  placeholder: 指点一二👻 # Comment box placeholder
+  placeholder: 老夫要指点一二 👻 # Comment box placeholder
   avatar: mm # Gravatar style
   guest_info: nick,mail,link # Custom comment header
   pageSize: 10 # Pagination size
@@ -758,7 +758,7 @@ application_insights:
 # Show number of visitors to each article.
 # You can visit https://leancloud.cn to get AppID and AppKey.
 leancloud_visitors:
-  enable: false
+  enable: true
   app_id: DAJLkcaBnNaBu3twHtvfo1Ju-gzGzoHsz
   app_key: 0jmmtW4u2oujE6IR4TtqonHH
   # Dependencies: https://github.com/theme-next/hexo-leancloud-counter-security
